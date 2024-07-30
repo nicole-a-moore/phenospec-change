@@ -293,3 +293,4 @@ lms %>%
   facet_wrap(~Ref_id) +
   labs(y = "Monthly spectral angle", x = "Year") +
   facet_grid(is_increasing~is_same_cover)
+
