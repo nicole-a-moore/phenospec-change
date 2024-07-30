@@ -1,0 +1,27 @@
+﻿SiteCode,Proprietaire,Region,Type foret,Type de sites,Notes,Age,ID audiomoth,Enter a date and time,Initiales observateurs,_Record your current location_latitude,_Record your current location_longitude,_Record your current location_altitude,_Record your current location_precision,GPS waypoint,"Location details (flagged, etc.)"
+CDQ_EB_Chrono1,Elise Bouchard,Centre Quebec,Mixed,Chronosequence ,plantation diversifié,7,1,2024-05-23T10:45:00.000-04:00,AL SW,46.1109083,-72.7151461,8.12774658203125,4.824,,
+CDQ_EB_Chrono2,Elise Bouchard,Centre Quebec,Conifere,Chronosequence ,Epinette,35,2,2024-05-23T11:02:00.000-04:00,AL SW,46.1082512,-72.7123596,15.5557861328125,4.645,,
+CDQ_EB_Foret1,Elise Bouchard,Centre Quebec,Mixed,Reference ,Foret mature,Ref,3,2024-05-23T11:35:00.000-04:00,AL SW,46.1061329,-72.7014172,9.339385986328125,4.938,,
+CDQ_JR_Coulee1,Jean Rousseau,Centre Quebec,NA,Coulée,NA,0,4,2024-05-23T12:43:00.000-04:00,AL SW,46.1927341,-72.6335134,8.68048095703125,3.216,,
+CDQ_MB_Chrono1,Michel Beaulac,Centre Quebec,Feuillus,Chronosequence,Bande rivereaine elargie,9,6,2024-05-23T14:26:00.000-04:00,AL SW,46.1911331,-72.6574337,8.68048095703125,4.288,,
+MON_MSH_Foret1,MSH site 1 Chalet Sttearn,Monteregie,Mixed,Reference,Milieu forestier,ref,7,2024-05-25T10:18:00.000-04:00,SW,45.5371845,-73.1516943,140.91082763671875,4.824,,Flagges on second ridge above stearn
+MON_MSH_Foret2,MSH2 site 2 amont LEAP,Monteregie,Mixed,Reference ,Milieu forestier,ref,8,2024-05-25T10:32:00.000-04:00,SW,45.5364701,-73.1482842,115.2425537109375,4.716,,VFlagged100m above LEAP
+MON_CV_Chrono1,Catherine Vary ,Monteregie,Mixed,Chronosequence ,Coulée reboisé,15,9,2024-05-27T08:53:00.000-04:00,SW et FV,45.811317,-73.1579644,-15.91650390625,4.645,,Flagged about 200m along  coulee
+MON_MM_Coulee1,Mathieu Messier,Monteregie,NA,Coulée ,DLF à reboiser,0,11,2024-05-27T10:40:00.000-04:00,SW et FV,45.8474596,-72.9459822,-1.5460205078125,4.288,,
+MON_CG_Coulee1,Claude Gervais,Monteregie,NA,Coulée,DLF à reboiser,0,13,2024-05-27T11:17:00.000-04:00,SW et FV,45.8209283,-72.8810559,-5.053741455078125,4.288,,
+MON_CG_Foret1,Claude Gervais ,Monteregie,Mixed,Reference,Milieu forestier,ref,14,2024-05-27T11:25:00.000-04:00,SW FV,45.8222069,-72.880893,4.33941650390625,4.931,,
+MON_MM_Coulee2,Mathieu Messier,Monteregie,NA,Coulée ,DLF reboisé,1,10,2024-05-27T10:23:00.000-04:00,SW et FV,45.8527375,-72.9442178,-2.924285888671875,4.824,,
+LAN_GN_Chrono1,Gilbert Nicole,Lanaudiere,Conifere,Chronosequence,Epinette,30,12,2024-05-30T09:59:00.000-04:00,AL MD,45.9813196,-73.4701323,23.30804443359375,4.759,,
+LAN_GN_Chrono2,Gilbert Nicole,Lanaudiere,?,Chronosequence,?,?,15,2024-05-30T10:09:00.000-04:00,AL MD,45.9807481,-73.4715817,9.172698974609375,4.824,,
+LAN_HF_Coulee1,Hughes Francoeur,Lanaudiere,NA,Coulée,NA,0,16,2024-05-30T11:01:00.000-04:00,AL MD,46.0384013,-73.5844738,9.154266357421875,4.288,,
+LAN_HF_Coulee2,Hughes Francoeur,Lanaudiere,NA,Coulée ,NA,0,17,2024-05-30T11:19:00.000-04:00,AL MD,46.0367889,-73.5875238,29.87347412109375,4.402,,
+LAN_MF_Coulee1,Martin Forest,Lanaudiere,NA,Coulée ,NA,0,18,2024-05-30T12:14:00.000-04:00,AL MD,46.1243315,-73.57375,78.963623046875,4.073,,
+LAN_MF_Foret1,Martin Forest,Lanaudiere,Mixed,Reference,milieu forestier,ref,19,2024-05-30T12:27:00.000-04:00,AL MD,46.1275885,-73.5782073,110.30377197265625,4.288,,
+LAN_SP_Chrono1,Serge Paulin,Lanaudiere,Mixed,Chronosequence,restauration naturelle,?,20,2024-05-30T14:38:00.000-04:00,AL MD,46.1556488,-73.18445,-1.34613037109375,4.824,,
+LAN_SP_Chrono2,Serge Paulin,Lanaudiere,Conifere,Chronosequence ,epinette ,?,21,2024-05-30T14:59:00.000-04:00,AL MD,46.1566312,-73.1831849,-10.628082275390625,4.824,,
+MAU_ML_Coulee1,Maxime Lessard,Mauricie,NA,Coulée ,planté,0,22,2024-05-31T10:07:00.000-04:00,SW et MD,46.3141303,-73.050151,16.35345458984375,4.824,,
+MAU_PG_Coulee1,Patrick Grandmaison,Mauricie,NA,Coulée ,a reboiser,0,23,2024-05-31T11:39:00.000-04:00,SW MD,46.5049168,-72.3895984,-13.266265869140625,4.109,,
+MAU_TAB_Chrono1,Toma-Alexandre Beaudoin,Mauricie,Conifere,Chronosequence,épinette,20,24,2024-05-31T12:56:00.000-04:00,SW MD,46.6738203,-72.4839209,73.5457763671875,4.109,,Bear pooo
+MAU_TAB_Chrono2,Toma-Alexandre Beaudoin,Mauricie,Conifere,Chronosequence ,épinette,20,25,2024-05-31T13:25:00.000-04:00,SW MD,46.6637401,-72.4478511,78.0029296875,4.288,,
+CDQ_JFJ_Coulee1,jean-Francois Jutras,Centre Quebec,NA,Coulée,à reboiser,0,1,2024-06-18T15:39:00.000-04:00,AL SW VL,46.1317583,-72.6058577,13.197021484375,4.288,,
+CDQ_JFJ_Coulee2,jean-Francois Jutras,Centre Quebec,NA,Coulée,à reboiser,0,2,2024-06-18T15:44:00.000-04:00,AL SW VL,46.1308763,-72.604903,8.489532470703125,4.288,,

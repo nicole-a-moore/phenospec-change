@@ -1,0 +1,931 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Coulées agricoles - suivi de biodiversité</name>
+    <description/>
+    <Style id="icon-1500-F9A825-normal">
+      <IconStyle>
+        <color>ff25a8f9</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1500-F9A825-highlight">
+      <IconStyle>
+        <color>ff25a8f9</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1500-F9A825">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1500-F9A825-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1500-F9A825-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1720-FF5252-normal">
+      <IconStyle>
+        <color>ff5252ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1720-FF5252-highlight">
+      <IconStyle>
+        <color>ff5252ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1720-FF5252">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1720-FF5252-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1720-FF5252-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1720-FF5252-nodesc-normal">
+      <IconStyle>
+        <color>ff5252ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1720-FF5252-nodesc-highlight">
+      <IconStyle>
+        <color>ff5252ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1720-FF5252-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1720-FF5252-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1720-FF5252-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-9C27B0-normal">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-9C27B0-highlight">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-9C27B0">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-9C27B0-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-9C27B0-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Coulées agricoles</name>
+      <Placemark>
+        <name>Maxime Lessard</name>
+        <description><![CDATA[Site ID: 1<br>description: le reboisement a eu lieu en 2017. La superficie totale reboisée est de 1.78 hectare. 1 500 plants d’épinettes blanches ont été mis en terre en alternance avec 2 100 plants d’arbustes indigènes. Les arbustes choisis (Rhus thyphina, Cornus sericea, Aronia melanocarpa et Viburnum trilobum).<br>âge: <br>type de plantation: <br>Superficie : <br>notes: ]]></description>
+        <styleUrl>#icon-1899-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="Site ID">
+            <value>1</value>
+          </Data>
+          <Data name="description">
+            <value>le reboisement a eu lieu en 2017. La superficie totale reboisée est de 1.78 hectare. 1 500 plants d’épinettes blanches ont été mis en terre en alternance avec 2 100 plants d’arbustes indigènes. Les arbustes choisis (Rhus thyphina, Cornus sericea, Aronia melanocarpa et Viburnum trilobum).</value>
+          </Data>
+          <Data name="âge">
+            <value/>
+          </Data>
+          <Data name="type de plantation">
+            <value/>
+          </Data>
+          <Data name="Superficie ">
+            <value/>
+          </Data>
+          <Data name="notes">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -73.0471711,46.3130194,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Elise Bouchard/Simon Lefebvre</name>
+        <description><![CDATA[Site ID: 9a<br>description: 41, chemin du Pays-Brûlé<br>Planté en 2015 et 2020<br>1000 arbres de 34 espèces différentes en des quantités variables.<br><br>âge: 5-10 ans<br>type de plantation: mixte<br>Superficie : <br>notes: ]]></description>
+        <styleUrl>#icon-1899-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="Site ID">
+            <value>9a</value>
+          </Data>
+          <Data name="description">
+            <value>41, chemin du Pays-Brûlé
+Planté en 2015 et 2020
+1000 arbres de 34 espèces différentes en des quantités variables.
+</value>
+          </Data>
+          <Data name="âge">
+            <value>5-10 ans</value>
+          </Data>
+          <Data name="type de plantation">
+            <value>mixte</value>
+          </Data>
+          <Data name="Superficie ">
+            <value/>
+          </Data>
+          <Data name="notes">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -72.7147436,46.1105909,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Elise Bouchard/Simon Lefevbre</name>
+        <description><![CDATA[Site ID: 9b<br>description: <br>âge: 30 ans<br>type de plantation: résineux<br>Superficie : <br>notes: ]]></description>
+        <styleUrl>#icon-1899-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="Site ID">
+            <value>9b</value>
+          </Data>
+          <Data name="description">
+            <value/>
+          </Data>
+          <Data name="âge">
+            <value>30 ans</value>
+          </Data>
+          <Data name="type de plantation">
+            <value>résineux</value>
+          </Data>
+          <Data name="Superficie ">
+            <value/>
+          </Data>
+          <Data name="notes">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -72.7114174,46.1078165,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gilbert Nicole</name>
+        <description><![CDATA[Site ID: 3<br>description: Terre totalise 41ha, dont 15ha reboisés dans les coulée agricoles, bandes riveraines et bordures de champs près de l'autoroute 158 et bordure du chamos du voisin à l'Est. 30 000 arbres ont été plantés au cours des dernières années  Frêne, érable rouge, argenté et à sucre, chêne à gros fruit, bouleau jaune, plantation de 300 noyers noirs en 2013, mélèze, sureaux, noyer en cœur, caryer ovale, noisetier, pimbina, aronia, viorne, etc.<br>âge: <br>type de plantation: <br>Superficie : <br>notes: ]]></description>
+        <styleUrl>#icon-1899-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="Site ID">
+            <value>3</value>
+          </Data>
+          <Data name="description">
+            <value><![CDATA[Terre totalise 41ha, dont 15ha reboisés dans les coulée agricoles, bandes riveraines et bordures de champs près de l'autoroute 158 et bordure du chamos du voisin à l'Est. 30 000 arbres ont été plantés au cours des dernières années  Frêne, érable rouge, argenté et à sucre, chêne à gros fruit, bouleau jaune, plantation de 300 noyers noirs en 2013, mélèze, sureaux, noyer en cœur, caryer ovale, noisetier, pimbina, aronia, viorne, etc.]]></value>
+          </Data>
+          <Data name="âge">
+            <value/>
+          </Data>
+          <Data name="type de plantation">
+            <value/>
+          </Data>
+          <Data name="Superficie ">
+            <value/>
+          </Data>
+          <Data name="notes">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -73.4746371,45.9778194,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mathieu Messier 1</name>
+        <description><![CDATA[Site ID: 5a<br>description: Planté printemps 2023 par DLF. 25% des végétaux sont des arbustes, 75% sont des arbres dont 25% des conifères.<br>âge: <br>type de plantation: <br>Superficie : 3,28<br>notes: ]]></description>
+        <styleUrl>#icon-1899-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="Site ID">
+            <value>5a</value>
+          </Data>
+          <Data name="description">
+            <value>Planté printemps 2023 par DLF. 25% des végétaux sont des arbustes, 75% sont des arbres dont 25% des conifères.</value>
+          </Data>
+          <Data name="âge">
+            <value/>
+          </Data>
+          <Data name="type de plantation">
+            <value/>
+          </Data>
+          <Data name="Superficie ">
+            <value>3,28</value>
+          </Data>
+          <Data name="notes">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -72.9451898,45.8531132,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mathieu Messier 2</name>
+        <description><![CDATA[Site ID: 5b<br>description: Planté printemps 2023 par DLF. 25% des végétaux sont des arbustes, 75% sont des arbres dont 25% des conifères. Plus de végétation autour, moins d'herbivorie<br>âge: <br>type de plantation: <br>Superficie : 1,06<br>notes: ]]></description>
+        <styleUrl>#icon-1899-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="Site ID">
+            <value>5b</value>
+          </Data>
+          <Data name="description">
+            <value><![CDATA[Planté printemps 2023 par DLF. 25% des végétaux sont des arbustes, 75% sont des arbres dont 25% des conifères. Plus de végétation autour, moins d'herbivorie]]></value>
+          </Data>
+          <Data name="âge">
+            <value/>
+          </Data>
+          <Data name="type de plantation">
+            <value/>
+          </Data>
+          <Data name="Superficie ">
+            <value>1,06</value>
+          </Data>
+          <Data name="notes">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -72.946472,45.847573,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Michel Beaulac</name>
+        <description><![CDATA[Site ID: 6<br>description: bandes riveraines élargies d'une dizaine de mètres suivant le cours d'eau Blondin implantées en 2009 sur la ferme familiale Beaulac<br>âge: <br>type de plantation: <br>Superficie : <br>notes: ]]></description>
+        <styleUrl>#icon-1899-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="Site ID">
+            <value>6</value>
+          </Data>
+          <Data name="description">
+            <value><![CDATA[bandes riveraines élargies d'une dizaine de mètres suivant le cours d'eau Blondin implantées en 2009 sur la ferme familiale Beaulac]]></value>
+          </Data>
+          <Data name="âge">
+            <value/>
+          </Data>
+          <Data name="type de plantation">
+            <value/>
+          </Data>
+          <Data name="Superficie ">
+            <value/>
+          </Data>
+          <Data name="notes">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -72.6562778,46.1868612,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Catherine Vary</name>
+        <description><![CDATA[Site ID: 4<br>description: <br>âge: 15-20 ans<br>type de plantation: mixte<br>Superficie : 6 ha<br>notes: 438-495-4589. à rappeller quand on va passer. pas intéressée à avoir encore de la paperasse. désire connaitre les résultats de l'étude et somme toute enthousiaste du projet.]]></description>
+        <styleUrl>#icon-1899-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="Site ID">
+            <value>4</value>
+          </Data>
+          <Data name="description">
+            <value/>
+          </Data>
+          <Data name="âge">
+            <value>15-20 ans</value>
+          </Data>
+          <Data name="type de plantation">
+            <value>mixte</value>
+          </Data>
+          <Data name="Superficie ">
+            <value>6 ha</value>
+          </Data>
+          <Data name="notes">
+            <value><![CDATA[438-495-4589. à rappeller quand on va passer. pas intéressée à avoir encore de la paperasse. désire connaitre les résultats de l'étude et somme toute enthousiaste du projet.]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -73.1549678,45.8092245,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Serge Paulin 1 - coulée</name>
+        <description><![CDATA[Site ID: 7a<br>description: <br>âge: <br>type de plantation: <br>Superficie : <br>notes: ruisseau de 4-5pieds de largeur et 3-4 pieds de profond, eau à l'année d'habitude, culture de foin pour chevaux et culture céréalière et de soya 514-249-8708]]></description>
+        <styleUrl>#icon-1899-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="Site ID">
+            <value>7a</value>
+          </Data>
+          <Data name="description">
+            <value/>
+          </Data>
+          <Data name="âge">
+            <value/>
+          </Data>
+          <Data name="type de plantation">
+            <value/>
+          </Data>
+          <Data name="Superficie ">
+            <value/>
+          </Data>
+          <Data name="notes">
+            <value><![CDATA[ruisseau de 4-5pieds de largeur et 3-4 pieds de profond, eau à l'année d'habitude, culture de foin pour chevaux et culture céréalière et de soya 514-249-8708]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -73.1825174,46.1549017,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Serge Paulin 2 - restauration naturelle</name>
+        <description><![CDATA[Site ID: 7b<br>description: <br>âge: <br>type de plantation: <br>Superficie : <br>notes: sont restaurée naturellement, surtout du peuplier. (emplacement exact à confirmer)]]></description>
+        <styleUrl>#icon-1899-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="Site ID">
+            <value>7b</value>
+          </Data>
+          <Data name="description">
+            <value/>
+          </Data>
+          <Data name="âge">
+            <value/>
+          </Data>
+          <Data name="type de plantation">
+            <value/>
+          </Data>
+          <Data name="Superficie ">
+            <value/>
+          </Data>
+          <Data name="notes">
+            <value>sont restaurée naturellement, surtout du peuplier. (emplacement exact à confirmer)</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -73.1866632,46.1588702,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>TBC - Pierre Dionne</name>
+        <description><![CDATA[Site ID: 8<br>description: <br>âge: <br>type de plantation: <br>Superficie : <br>notes: ]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Site ID">
+            <value>8</value>
+          </Data>
+          <Data name="description">
+            <value/>
+          </Data>
+          <Data name="âge">
+            <value/>
+          </Data>
+          <Data name="type de plantation">
+            <value/>
+          </Data>
+          <Data name="Superficie ">
+            <value/>
+          </Data>
+          <Data name="notes">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -72.620153,46.089199,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>TBC - plantation Christian Messier</name>
+        <description><![CDATA[Site ID: <br>description: Site à confirmer<br>âge: <br>type de plantation: <br>Superficie : <br>notes: ]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Site ID">
+            <value/>
+          </Data>
+          <Data name="description">
+            <value>Site à confirmer</value>
+          </Data>
+          <Data name="âge">
+            <value/>
+          </Data>
+          <Data name="type de plantation">
+            <value/>
+          </Data>
+          <Data name="Superficie ">
+            <value/>
+          </Data>
+          <Data name="notes">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -74.6996941,45.7546495,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>TBC - plantation Christian Messier</name>
+        <description><![CDATA[Site ID: <br>description: Site à confirmer<br>âge: <br>type de plantation: <br>Superficie : <br>notes: ]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Site ID">
+            <value/>
+          </Data>
+          <Data name="description">
+            <value>Site à confirmer</value>
+          </Data>
+          <Data name="âge">
+            <value/>
+          </Data>
+          <Data name="type de plantation">
+            <value/>
+          </Data>
+          <Data name="Superficie ">
+            <value/>
+          </Data>
+          <Data name="notes">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -74.7731354,45.9010696,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>TBC - Pangea</name>
+        <description><![CDATA[Site ID: <br>description: <br>âge: <br>type de plantation: <br>Superficie : <br>notes: ]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Site ID">
+            <value/>
+          </Data>
+          <Data name="description">
+            <value/>
+          </Data>
+          <Data name="âge">
+            <value/>
+          </Data>
+          <Data name="type de plantation">
+            <value/>
+          </Data>
+          <Data name="Superficie ">
+            <value/>
+          </Data>
+          <Data name="notes">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -73.4605926,45.8407047,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Sites de référence</name>
+      <Placemark>
+        <name>Mont-Saint-Bruno</name>
+        <description>Milieu forestier</description>
+        <styleUrl>#icon-1500-F9A825</styleUrl>
+        <Point>
+          <coordinates>
+            -73.3372968,45.5483113,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Îles-de-Boucherville</name>
+        <description>Terres agricoles restaurées en friches</description>
+        <styleUrl>#icon-1500-F9A825</styleUrl>
+        <Point>
+          <coordinates>
+            -73.4697958,45.6090385,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>DLF - plantation automne 2024</name>
+      <Placemark>
+        <name>Michel Desjardins</name>
+        <description>3.76ha</description>
+        <styleUrl>#icon-1720-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            -75.5346114,45.5456294,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Roxanne Blain</name>
+        <description>0.60ha</description>
+        <styleUrl>#icon-1720-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            -73.31717,45.6221804,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Edith Therrien</name>
+        <description>0.25ha superficie à planter</description>
+        <styleUrl>#icon-1720-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            -72.6006087,46.1293825,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Jean-François Jutras</name>
+        <description>Ferme Georden, 0.49ha à planter</description>
+        <styleUrl>#icon-1720-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            -72.6046675,46.1307772,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Patrick Côté</name>
+        <description>Ferme Robert Côté inc. Superficie à planter : 0.07ha</description>
+        <styleUrl>#icon-1720-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            -72.6077694,46.1292201,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Jocelyn Boisvert</name>
+        <description>0.15ha</description>
+        <styleUrl>#icon-1720-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            -72.6155519,46.0770203,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pierre Dionne</name>
+        <description>1.87ha</description>
+        <styleUrl>#icon-1720-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            -72.6198178,46.0880443,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Jocelyn Boisvert</name>
+        <description>0.90ha</description>
+        <styleUrl>#icon-1720-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            -72.6104174,46.0700884,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Toma-Alexandre Beaudoin</name>
+        <description>1.78ha</description>
+        <styleUrl>#icon-1720-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            -72.4316022,46.6521052,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Toma-Alexandre Beaudoin</name>
+        <description>2.35ha</description>
+        <styleUrl>#icon-1720-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            -72.4417555,46.6573423,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Toma-Alexandre Beaudoin</name>
+        <description>1.19ha</description>
+        <styleUrl>#icon-1720-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            -72.4506995,46.6652577,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Toma-Alexandre Beaudoin</name>
+        <description>0.74 ha</description>
+        <styleUrl>#icon-1720-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            -72.4445611,46.6657419,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pierre Dionne</name>
+        <description>1.32 ha</description>
+        <styleUrl>#icon-1720-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            -72.6141869,46.0912914,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pierre Dionne</name>
+        <description>1.67ha</description>
+        <styleUrl>#icon-1720-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            -72.6156989,46.0892831,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Yvan Beauchemin</name>
+        <description>2.8ha</description>
+        <styleUrl>#icon-1720-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            -72.5999019,46.1372782,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Yvan Beauchemin</name>
+        <description>0.73ha</description>
+        <styleUrl>#icon-1720-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            -72.5902677,46.1444811,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Martin Forest</name>
+        <description>0.68ha</description>
+        <styleUrl>#icon-1720-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            -73.5676946,46.1200316,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Martin Forest</name>
+        <description>0.12ha</description>
+        <styleUrl>#icon-1720-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            -73.5639275,46.1227455,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Martin Forest</name>
+        <description>0.80ha</description>
+        <styleUrl>#icon-1720-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            -73.5734961,46.1245245,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Martin Forest</name>
+        <description>0.09ha</description>
+        <styleUrl>#icon-1720-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            -73.5769696,46.1250485,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Martin Forest</name>
+        <description>0.06ha</description>
+        <styleUrl>#icon-1720-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            -73.574815,46.1266252,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hugues Francoeur</name>
+        <description>1.37ha</description>
+        <styleUrl>#icon-1720-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            -73.5851427,46.0386608,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hugues Francoeur</name>
+        <description>0.26ha</description>
+        <styleUrl>#icon-1720-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            -73.5876172,46.0368396,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hugues Francoeur</name>
+        <description>0.23ha</description>
+        <styleUrl>#icon-1720-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            -73.5898613,46.0342957,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Patrick Grandmaison</name>
+        <description>2.94ha</description>
+        <styleUrl>#icon-1720-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            -72.384142,46.5019739,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Claude Gervais</name>
+        <styleUrl>#icon-1720-FF5252-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -72.8805958,45.8228573,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Joel Desjardins</name>
+        <description>3.8ha</description>
+        <styleUrl>#icon-1720-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            -75.5729088,45.5328515,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Michel Desjardins</name>
+        <description>0.58ha</description>
+        <styleUrl>#icon-1720-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            -75.5394417,45.5443727,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Paul Dambremont</name>
+        <description>1.15ha</description>
+        <styleUrl>#icon-1720-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            -75.2856359,45.6479994,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Couche sans titre</name>
+    </Folder>
+  </Document>
+</kml>
